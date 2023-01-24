@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NEVER BACK DOWN</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Merriweather&family=Montserrat&family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <style>
+    /* CSS RESET */
+    body {
+      margin: 0px;
+      padding: 0px;
+      /* background url is a function, can be used for background images */
+      background: url("img/P5.jpg");
+      color: blanchedalmond;
+      font-family: "Josefin Sans", sans-serif;
+    }
+  </style>
+  <body>
+    <header class="header">
+      <!-- left box for logo -->
+      <div class="left">
+        <img src="img/P3.png" alt="logo" />
+        <div>NEVER BACK DOWN</div>
+      </div>
+
+      <!-- mid box for nav bar -->
+      <div class="mid">
+        <ul class="navbar">
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Fitness Calculator</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <!-- right box for buttons -->
+      <div class="right">
+        <button class="btn">Free Trail</button>
+        <button class="btn">Join Now</button>
+      </div>
+    </header>
+    <div class="container">
+      <h1><span class="head">Join The </span> Best Gym of Jalna</h1>
+      <h2>GET IN TOUCH <span class="head">WITH US</span></h2>
+      <form action="noaction.php">
+        <!-- <select id=" " name="" aria-placeholder="GET A FREE TRAINING SESSION WITH US"> -->
+
+         <select name="training" id="training-session">
+          <option value="">--Get a free training session with us--</option>
+          <option value="TD">TODAY</option>
+          <option value="TM">TOMMOROW</option>
+        </select>
+
+        <div class="form-group">
+          <input type="text" name="" placeholder="Enter Your Name" />
+        </div>
+        <div class="form-group">
+          <input type="text" name="" placeholder="Enter Email" />
+        </div>
+        <div class="form-group">
+          <input type="text" name="" placeholder="Enter Phone No" />
+        </div>
+        <div class="form-group">
+          <!-- <input type="text" name="" placeholder="Time" /> -->
+          <select name="time" id="select-time">
+            <option value="">--SELECT TIME--</option>
+            <option value="T1">6am - 9am</option>
+            <option value="T2">10am - 12pm </option>
+            <option value="T3">4pm - 7pm </option>
+            <option value="T4">8pm - 10pm </option>
+          </select>
+
+        </div>
+      </form>
+      <button class="btn">SUBMIT</button>
+    </div>
+  </body>
+</html>
+
+<!-- <label for="pet-select">Choose a pet:</label>
+
+<select name="pets" id="pet-select">
+    <option value="">--Please choose an option--</option>
+    <option value="dog">Dog</option>
+    <option value="cat">Cat</option>
+    <option value="hamster">Hamster</option>
+    <option value="parrot">Parrot</option>
+    <option value="spider">Spider</option>
+    <option value="goldfish">Goldfish</option>
+</select> -->
